@@ -100,8 +100,10 @@ public class MainArticle extends AppCompatActivity {
         articleAdapter.setListener(this::searchMore);
         swipeRefreshLayout.setOnRefreshListener(() -> {
             progressMain.setVisibility(View.VISIBLE);
+            searchRequest.resetPage();
             setUpView();
             search();
+            searchMore();
         });
     }
 
