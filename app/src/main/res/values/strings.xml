@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYTArticle</string>
+    <string name="begin_date">Begin Date:</string>
+    <string name="sort">Sort Order:</string>
+    <string name="new_desk">News Desk Values:</string>
+    <string name="arts">Arts</string>
+    <string name="fashion_style"><![CDATA[Fashion & Style]]></string>
+    <string name="sport">Sports</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>
